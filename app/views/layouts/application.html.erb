@@ -11,7 +11,7 @@
   <body>
   	<p class="notice"><%= notice %></p>
   	<p class="alert"><%= alert %></p>
-    
+
     <% if current_user %>
       <%= link_to "Logout", destroy_user_session_path, method: :delete %>
     <% else %>
@@ -20,5 +20,8 @@
     <% end %>
 
     <%= yield %>
+
+    <%= if session[:source] %>
+    Thanks for visiting me from <%= session[:source] %>
   </body>
 </html>
