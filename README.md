@@ -1,6 +1,6 @@
 # Devcamp Portfolio Application
 
-> This is a Ruby on Rails 5 application that allows users to create their own portfolios. 
+> This is a Ruby on Rails 5 application that allows users to create their own portfolios.
 
 ### Features
 
@@ -9,13 +9,14 @@
 - Portfolio
 - Drag and drop interface
 
-### Code Example 
-```ruby 
+### Code Example
+
+```ruby
 def my_great_method
-	puts "Here it is"
+  puts "here it is"
 end
 ```
 
-```javascript 
-alert ('Hi there!');
+```javascript
+alert('Hi there');
 ```
